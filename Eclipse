@@ -19,6 +19,7 @@ do
 	writefile("menu_font.font", game:GetService("HttpService"):JSONEncode(smallest_pixel))
 	getgenv().menu_font = Font.new(getcustomasset("menu_font.font"), Enum.FontWeight.Regular)
 end; 
+local Library = {}
 do 
 	Library = {
 		Open = true;
